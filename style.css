@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(5, 6, 84);
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: fantasy;
+    color: rgb(202, 240, 248);
+    height: 5rem;
+    line-height: 5rem;
+    text-shadow: darkgray;
+}
+.choices {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin: 20px;
+    
+}
+
+#rock, #paper, #scissor {
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    height: 110px;
+    width: 110px;
+    background-color: rgb(1, 1, 1);
+    box-shadow: 0 0 4px 4px #ea49dcee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.Score-board {
+    color: rgb(173, 232, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.score {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.msg-container {
+    margin: 1rem;
+}
+
+#msg {
+    height: 30px;
+    font-size: larger;
+    background-color: rgb(37, 161, 142);
+    color: rgb(3, 4, 94);
+    padding: 5px;
+    display: flex;
+    display: inline;
+    border-radius: 5px;
+}
+
+.choice:hover{
+    transform: scale(1.12);
+}
+
+
